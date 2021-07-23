@@ -1,0 +1,342 @@
+html, body{
+    min-height:100%;
+}
+body{
+    margin : 0;
+    background-color: #fff;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#18191F;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+.wrapper{
+    /* width:100%; */
+    min-width: 1440px;
+    margin: 0 0;
+    background-color: #E5E5E5;
+    min-height: 10rem;
+    box-sizing: border-box;
+}
+.inner{
+    /* width:100%; */
+    max-width: 69.375rem;
+    margin: 0rem 10.312rem;
+    height : inherit;
+}
+h2, h3, h4, h5, h6{
+    margin:0;
+}
+.top_inner{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 72px;
+}
+.left_nav{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color:black;
+    font-weight:700;
+    font-size:1.25rem;
+}
+a{
+    text-decoration:none;
+}
+.logo span{
+    margin-left: 0.546rem;
+    margin-top: 1px;
+    text-decoration: none;
+}
+.nav_items{
+    margin-left: 5.562rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    line-height: 1.25rem
+}
+.nav_items a{
+    margin: 0rem 2rem 0rem 0rem;
+    color: #18191F;
+    font-size:0.875rem;
+    font-weight: 500;
+    font-style: none;
+    text-decoration: none;
+}
+.right_nav{
+    display:flex;
+    flex-direction: right;
+    align-items: center;
+    padding-top: 4px;
+}
+.right_nav a{
+    margin-left:0.75rem;
+}
+.header{
+    min-height: 54.125rem;
+    box-sizing: border-box;
+    background-image: url('images/header_background.jpg');
+    overflow: hidden;
+}
+
+.header_button{
+    float: left;
+    padding-top: 10.5rem;   /*top header banane k baad update karna padega*/
+    max-width:42rem;
+}
+.header_button h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin: 0;
+    line-height: 98px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+.get_started{
+    background-color: #8C30F5;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+    width: 9.625rem;
+    height: 3rem;
+    margin-top: 2rem;
+    border-radius: 0.375rem;
+    border: none;
+}
+.phone_mockup{
+    height: 40rem;
+    float: right;
+    width:20rem;
+    margin-top: 6rem;
+    filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+    background-image: url(images/iphone_screen.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 15px;
+}
+.tailor_made{
+    height:42rem;
+    background-color: #fff;
+    display: block;
+    justify-content: center;
+    margin:0;
+}
+.tailor_heading{
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    padding-top:4rem;
+    max-width: 33.75rem;
+    font-size: 1.125rem;
+    line-height: 2rem; 
+    color:#18191F;
+}
+.tailor_heading h2{
+    color:#18191F;
+    font-size:3rem;
+    font-weight:800;
+    line-height: 4rem;
+    margin-bottom: 0.5rem;
+}
+.feature_row{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 4rem;
+}
+.feature {
+    width: 21.875rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content:center; */
+    text-align:center;
+    font-feature-settings: 'salt' on, 'liga' off;
+}
+.feature h5{
+    color: #18191F;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 1.3rem 0rem 0.5rem 0rem;
+}
+.feature text{
+    line-height: 1.625rem;
+}
+.testimonial{
+    min-height: 56rem;
+    background-color: #D5FAFC;
+    display: block;
+    box-sizing: border-box;
+}
+.testimonial .quote{
+    padding-top: 4rem;
+    position: absolute;
+}
+.testi_heading{
+    position: absolute;
+    padding-top: 7.5rem;
+    margin-left: 5.938rem;
+    width: 27.812rem;
+}
+.testi_heading h2{
+    font-size:3rem;
+    font-weight:800;
+    line-height: 4rem;
+}
+.testi_heading p{
+    margin: 8px 0px 24px 0px;
+    font-size:1.125rem;
+    font-weight:400;
+    line-height: 2rem;
+}
+.customer_card{
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    background-color:#fff;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px; 
+}
+.airbnb{
+    width: 27.8125rem;
+    float: right;
+    right: 5.9375rem;
+    top:10.5rem;
+}
+.hubspot{
+    width: 21.875rem;
+    left: 11.875rem;
+    top: 19.5rem;
+}
+.bookmyshow{
+    width: 21.875rem;
+    float: right;
+    right: 11.875rem;
+    top: 4.438rem;
+}
+.quote_small{
+    position: absolute;
+    margin-top: 4.5rem;
+}
+.person_detail{
+    font-size:1.125rem;
+    font-weight:400;
+    line-height: 2rem;
+    width: 15.875rem;
+    margin-left: 2rem;
+    margin-top: 1.8rem;
+}
+.airbnb .person_detail{
+    width: 21.812rem;
+}
+.person{
+    margin-top: 1.5rem;
+    font-size:1.125rem;
+    line-height: 1.75rem;
+    font-weight:700;
+}
+.signature{
+    color:#969BAB;
+    font-weight: 500;
+    font-size:0.875rem;
+    line-height:1.5rem;
+}
+.achievement{
+    box-sizing: border-box;
+    background-color: #fff;
+    min-height:20.75rem;
+    display:block;
+    padding-top: 5rem;
+    align-items: center;
+}
+.achieve_head{
+    position: absolute;
+    /* padding-top:0.125rem; */
+    width: 33.75rem;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+.achieve_head h2{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin-top:0.125rem;
+    margin-bottom: 0.5rem;
+}
+.counts{
+    float: right;
+}
+.count_icon{
+    padding-top: 0.25rem;
+}
+.count_row{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 2.5rem;
+}
+.count_card{
+    width:15.9375rem;
+    display: flex;
+    padding-left: 1.875rem;
+    align-items: center;
+}
+.count{
+    padding-left: 1rem;
+    line-height: 1.625rem;
+}
+.count h4{
+    font-size:1.75rem;
+    font-weight: 700;
+    line-height:2.5rem;
+}
+.single_feature{
+    box-sizing: border-box;
+    background-color:#fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.single_feature .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.single_content{
+    box-sizing: border-box;
+    width:33.75rem;
+    padding: 0.25rem 3rem 0rem 3rem;
+    font-size: 1.125rem;
+    line-height: 2rem;
+}
+.single_content h3{
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 3.375rem;
+    margin-bottom: 2rem;
+}
+.single_content button{
+    background:transparent;
+    border:none;
+    color: #8C30F5;
+    padding:0;
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.footer{
+    box-sizing: border-box;
+    padding:3.5rem 0rem 3.375rem 0rem;
+    
+}
