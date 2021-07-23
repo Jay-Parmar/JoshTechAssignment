@@ -16,6 +16,8 @@ body{
     min-height: 10rem;
     box-sizing: border-box;
 }
+
+/* inner to set the margin of whole page linearly and at one place  */
 .inner{
     /* width:100%; */
     max-width: 69.375rem;
@@ -25,6 +27,8 @@ body{
 h2, h3, h4, h5, h6{
     margin:0;
 }
+
+/* Main header */
 .top_inner{
     display:flex;
     justify-content:space-between;
@@ -118,6 +122,35 @@ a{
     background-position: center;
     margin-right: 15px;
 }
+
+/* Logo Cloud Corousel */
+.logo_cloud{
+    padding:1rem 0rem 1rem 0rem;
+    background-color: #fff;
+    min-height:8.875rem;
+}
+.logo_cloud .inner{
+    margin: 0rem 10.125rem;
+}
+.divider{
+    height:1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+.logo_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width:55.6875rem;
+}
+.carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 0rem;
+    min-height:3.75rem;
+}
+
+/* Feature Multiple */
 .tailor_made{
     height:42rem;
     background-color: #fff;
@@ -175,6 +208,8 @@ a{
     display: block;
     box-sizing: border-box;
 }
+
+/* Testimonials */
 .testimonial .quote{
     padding-top: 4rem;
     position: absolute;
@@ -251,6 +286,8 @@ a{
     font-size:0.875rem;
     line-height:1.5rem;
 }
+
+/* Achievement */
 .achievement{
     box-sizing: border-box;
     background-color: #fff;
@@ -301,6 +338,8 @@ a{
     font-weight: 700;
     line-height:2.5rem;
 }
+
+/* Feature Single */
 .single_feature{
     box-sizing: border-box;
     background-color:#fff;
@@ -335,6 +374,8 @@ a{
     font-size: 1rem;
     line-height: 1.5rem;
 }
+
+/* Footer */
 .footer{
     box-sizing: border-box;
     padding:3.5rem 0rem 3.375rem 0rem;
